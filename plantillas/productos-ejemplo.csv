@@ -1,0 +1,11 @@
+sku,name,description,price,cost,category,taxRate,minStock
+SKU-001,Bicicleta Montaña Rin 29,Bicicleta de montaña profesional,1500000,1000000,Bicicletas,19,2
+SKU-002,Casco Protección,Casco de seguridad certificado,85000,50000,Accesorios,19,10
+SKU-003,Guantes Ciclismo,Guantes acolchados profesionales,45000,25000,Accesorios,19,15
+SKU-004,Llanta 29x2.1,Llanta para bicicleta de montaña,120000,70000,Repuestos,19,8
+SKU-005,Cadena Shimano,Cadena 9 velocidades,65000,40000,Repuestos,19,12
+SKU-006,Pedales Aluminio,Pedales antideslizantes,95000,55000,Repuestos,19,10
+SKU-007,Sillin Ergonómico,Asiento cómodo para largas distancias,110000,65000,Repuestos,19,6
+SKU-008,Luces LED Set,Kit de luces delantera y trasera,75000,45000,Accesorios,19,15
+SKU-009,Bomba Aire Portátil,Bomba de mano compacta,35000,20000,Accesorios,19,20
+SKU-010,Candado Seguridad,Candado de cable reforzado,55000,30000,Accesorios,19,12

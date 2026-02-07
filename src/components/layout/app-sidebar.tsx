@@ -23,6 +23,7 @@ const sidebarItems = [
     { icon: ShoppingCart, label: "Ventas / Facturación", href: "/dashboard/sales" },
     { icon: CreditCard, label: "Gastos", href: "/dashboard/expenses" },
     { icon: Users, label: "Clientes", href: "/dashboard/customers" },
+    { icon: History, label: "Migración", href: "/dashboard/migration" },
     { icon: LineChart, label: "Reportes", href: "/dashboard/reports" },
     { icon: Settings, label: "Configuración", href: "/dashboard/settings" },
 ];
