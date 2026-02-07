@@ -33,8 +33,8 @@ export function AppSidebar() {
     return (
         <aside className="fixed left-0 top-0 z-40 h-screen w-64 border-r bg-white text-slate-800 shadow-sm flex flex-col">
             {/* Profile / Brand Section */}
-            <div className="h-40 bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col items-center justify-center text-white relative overflow-hidden">
-                <div className="absolute inset-0 bg-primary/20 opacity-30 mix-blend-overlay"></div>
+            <div className="h-40 bg-gradient-to-br from-indigo-600 to-violet-700 flex flex-col items-center justify-center text-white relative overflow-hidden">
+                <div className="absolute inset-0 bg-black/10 opacity-30 mix-blend-overlay"></div>
                 <div className="z-10 flex flex-col items-center gap-2">
                     <div className="h-14 w-14 rounded-full bg-white/20 border-2 border-white/30 flex items-center justify-center text-xl font-bold backdrop-blur-sm">
                         EP

@@ -16,28 +16,28 @@ const stats = [
         value: "$1.245.000",
         change: "Hoy",
         icon: ShoppingCart,
-        color: "bg-blue-500",
+        color: "bg-indigo-500",
     },
     {
         title: "GASTOS",
         value: "$320.000",
         change: "Mes Actual",
         icon: CreditCard,
-        color: "bg-red-500",
+        color: "bg-rose-500",
     },
     {
         title: "COMPRAS",
         value: "$4.500.000",
         change: "Mes Actual",
         icon: Package,
-        color: "bg-orange-500",
+        color: "bg-amber-500",
     },
     {
         title: "UTILIDAD",
         value: "$925.000",
         change: "Estimada Hoy",
         icon: DollarSign,
-        color: "bg-green-500",
+        color: "bg-emerald-500",
     },
 ];
 
@@ -53,7 +53,7 @@ export default function DashboardPage() {
                         Resumen de actividad para <span className="font-semibold text-primary">El Pedalazo</span>
                     </p>
                 </div>
-                <FluidButton className="bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20 rounded-full h-12 w-12 flex items-center justify-center p-0">
+                <FluidButton className="bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/25 rounded-full h-12 w-12 flex items-center justify-center p-0 transition-all hover:scale-105">
                     <span className="text-2xl font-light">+</span>
                 </FluidButton>
             </div>
@@ -61,7 +61,7 @@ export default function DashboardPage() {
             {/* Summary Cards */}
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
                 {stats.map((stat) => (
-                    <GlassCard key={stat.title} className="p-0 overflow-hidden border-0 shadow-md">
+                    <GlassCard key={stat.title} className="p-0 overflow-hidden border-0 shadow-sm hover:shadow-md transition-shadow">
                         <div className="p-4 flex items-center justify-between">
                             <div>
                                 <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">{stat.title}</p>
@@ -83,30 +83,31 @@ export default function DashboardPage() {
             <div className="grid gap-6 md:grid-cols-12">
                 {/* Calendar / Schedule Section */}
                 <div className="md:col-span-8">
-                    <GlassCard className="h-full p-6 border-0 shadow-md">
-                        <div className="flex items-center justify-between mb-6">
+                    <GlassCard className="h-full p-6 border-0 shadow-sm relative overflow-hidden">
+                        <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full filter blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+                        <div className="flex items-center justify-between mb-6 relative z-10">
                             <h3 className="font-bold text-lg text-slate-700 flex items-center gap-2">
                                 <Calendar className="h-5 w-5 text-primary" />
                                 Calendario Operativo
                             </h3>
-                            <div className="text-sm text-slate-400">Febrero 2026</div>
+                            <div className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">Febrero 2026</div>
                         </div>
 
-                        <div className="border rounded-lg p-4 bg-slate-50 min-h-[300px] flex items-center justify-center text-slate-400 border-dashed border-slate-200">
+                        <div className="border rounded-lg p-4 bg-slate-50/50 min-h-[300px] flex items-center justify-center text-slate-400 border-dashed border-slate-200">
                             <p>Componente de Calendario (React-Big-Calendar o FullCalendar)</p>
                         </div>
 
                         <div className="mt-4 flex gap-4 text-xs">
                             <div className="flex items-center gap-1.5">
-                                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                                <div className="w-3 h-3 rounded-full bg-rose-500"></div>
                                 <span className="text-slate-500">Vencimientos</span>
                             </div>
                             <div className="flex items-center gap-1.5">
-                                <div className="w-3 h-3 rounded-full bg-orange-500"></div>
+                                <div className="w-3 h-3 rounded-full bg-amber-500"></div>
                                 <span className="text-slate-500">Pago Proveedores</span>
                             </div>
                             <div className="flex items-center gap-1.5">
-                                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                                <div className="w-3 h-3 rounded-full bg-emerald-500"></div>
                                 <span className="text-slate-500">Ingresos</span>
                             </div>
                         </div>
@@ -115,7 +116,7 @@ export default function DashboardPage() {
 
                 {/* Alerts / Notifications */}
                 <div className="md:col-span-4">
-                    <GlassCard className="h-full p-6 border-0 shadow-md bg-slate-800 text-white relative overflow-hidden">
+                    <GlassCard className="h-full p-6 border-0 shadow-lg bg-indigo-950 text-white relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-32 h-32 bg-primary/20 rounded-full filter blur-3xl -translate-y-1/2 translate-x-1/2"></div>
 
                         <h3 className="font-bold text-lg mb-4 flex items-center gap-2 relative z-10">
