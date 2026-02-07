@@ -1,0 +1,1429 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.4.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.7.0
+2 info using node@v25.4.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/.npmrc
+5 silly config load:file:/Users/andres/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "./npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/npm-cache/_logs/2026-02-07T16_11_34_420Z-
+10 verbose logfile /Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/npm-cache/_logs/2026-02-07T16_11_34_420Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly fetch manifest eslint@^8
+15 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+16 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules/@alloc
+17 http fetch GET 200 https://registry.npmjs.org/eslint 378ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/eslint set size:1929113 disposed:false
+19 silly fetch manifest eslint-config-next@15.1.0
+20 silly packumentCache full:https://registry.npmjs.org/eslint-config-next cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/eslint-config-next 52ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/eslint-config-next set size:6249159 disposed:false
+23 silly fetch manifest typescript@^5
+24 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/typescript 70ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/typescript set size:15216073 disposed:false
+27 silly placeDep ROOT eslint@8.57.1 REPLACE for: sistema-erp-pitalito@0.1.0 want: ^8
+28 silly placeDep ROOT eslint-config-next@15.1.0 REPLACE for: sistema-erp-pitalito@0.1.0 want: 15.1.0
+29 silly fetch manifest ajv@^6.12.4
+30 silly packumentCache full:https://registry.npmjs.org/ajv cache-miss
+31 silly fetch manifest espree@^9.6.1
+32 silly packumentCache full:https://registry.npmjs.org/espree cache-miss
+33 silly fetch manifest ignore@^5.2.0
+34 silly packumentCache full:https://registry.npmjs.org/ignore cache-miss
+35 silly fetch manifest globals@^13.19.0
+36 silly packumentCache full:https://registry.npmjs.org/globals cache-miss
+37 silly fetch manifest js-yaml@^4.1.0
+38 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+39 silly fetch manifest doctrine@^3.0.0
+40 silly packumentCache full:https://registry.npmjs.org/doctrine cache-miss
+41 silly fetch manifest graphemer@^1.4.0
+42 silly packumentCache full:https://registry.npmjs.org/graphemer cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/graphemer 50ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/graphemer set size:undefined disposed:false
+45 silly fetch manifest @eslint/js@8.57.1
+46 silly packumentCache full:https://registry.npmjs.org/@eslint%2fjs cache-miss
+47 http fetch GET 200 https://registry.npmjs.org/globals 122ms (cache revalidated)
+48 silly packumentCache full:https://registry.npmjs.org/globals set size:304921 disposed:false
+49 silly fetch manifest strip-ansi@^6.0.1
+50 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/ajv 126ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmjs.org/ajv set size:1126055 disposed:false
+53 silly fetch manifest text-table@^0.2.0
+54 silly packumentCache full:https://registry.npmjs.org/text-table cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/espree 133ms (cache revalidated)
+56 silly packumentCache full:https://registry.npmjs.org/espree set size:320553 disposed:false
+57 silly fetch manifest eslint-scope@^7.2.2
+58 silly packumentCache full:https://registry.npmjs.org/eslint-scope cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/ignore 135ms (cache revalidated)
+60 silly packumentCache full:https://registry.npmjs.org/ignore set size:237380 disposed:false
+61 silly fetch manifest is-path-inside@^3.0.3
+62 silly packumentCache full:https://registry.npmjs.org/is-path-inside cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/js-yaml 142ms (cache revalidated)
+64 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:152232 disposed:false
+65 silly fetch manifest fast-deep-equal@^3.1.3
+66 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-miss
+67 http fetch GET 200 https://registry.npmjs.org/strip-ansi 49ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:undefined disposed:false
+69 silly fetch manifest @eslint/eslintrc@^2.1.4
+70 silly packumentCache full:https://registry.npmjs.org/@eslint%2feslintrc cache-miss
+71 http fetch GET 200 https://registry.npmjs.org/eslint-scope 42ms (cache revalidated)
+72 silly packumentCache full:https://registry.npmjs.org/eslint-scope set size:93978 disposed:false
+73 silly fetch manifest file-entry-cache@^6.0.1
+74 silly packumentCache full:https://registry.npmjs.org/file-entry-cache cache-miss
+75 http fetch GET 200 https://registry.npmjs.org/text-table 49ms (cache miss)
+76 silly packumentCache full:https://registry.npmjs.org/text-table set size:undefined disposed:false
+77 silly fetch manifest eslint-visitor-keys@^3.4.3
+78 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/is-path-inside 44ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/is-path-inside set size:undefined disposed:false
+81 silly fetch manifest @ungap/structured-clone@^1.2.0
+82 silly packumentCache full:https://registry.npmjs.org/@ungap%2fstructured-clone cache-miss
+83 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 37ms (cache revalidated)
+84 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal set size:48634 disposed:false
+85 silly fetch manifest @humanwhocodes/config-array@^0.13.0
+86 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fconfig-array cache-miss
+87 http fetch GET 200 https://registry.npmjs.org/eslint-visitor-keys 45ms (cache revalidated)
+88 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys set size:67352 disposed:false
+89 silly fetch manifest @rushstack/eslint-patch@^1.10.3
+90 silly packumentCache full:https://registry.npmjs.org/@rushstack%2feslint-patch cache-miss
+91 http fetch GET 200 https://registry.npmjs.org/file-entry-cache 51ms (cache revalidated)
+92 silly packumentCache full:https://registry.npmjs.org/file-entry-cache set size:151480 disposed:false
+93 silly fetch manifest @next/eslint-plugin-next@15.1.0
+94 silly packumentCache full:https://registry.npmjs.org/@next%2feslint-plugin-next cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/@eslint%2feslintrc 62ms (cache revalidated)
+96 silly packumentCache full:https://registry.npmjs.org/@eslint%2feslintrc set size:163118 disposed:false
+97 silly fetch manifest @typescript-eslint/parser@^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0
+98 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/doctrine 258ms (cache revalidated)
+100 silly packumentCache full:https://registry.npmjs.org/doctrine set size:64052 disposed:false
+101 silly fetch manifest eslint-plugin-react-hooks@^5.0.0
+102 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fparser 83ms (cache revalidated)
+104 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fparser set size:14785168 disposed:false
+105 silly fetch manifest @typescript-eslint/eslint-plugin@^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0
+106 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react-hooks 126ms (cache revalidated)
+108 silly packumentCache full:https://registry.npmjs.org/eslint-plugin-react-hooks set size:7110950 disposed:false
+109 http fetch GET 200 https://registry.npmjs.org/@ungap%2fstructured-clone 230ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/@ungap%2fstructured-clone set size:undefined disposed:false
+111 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fconfig-array 230ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fconfig-array set size:undefined disposed:false
+113 http fetch GET 200 https://registry.npmjs.org/@next%2feslint-plugin-next 189ms (cache revalidated)
+114 silly packumentCache full:https://registry.npmjs.org/@next%2feslint-plugin-next set size:6428977 disposed:false
+115 http fetch GET 200 https://registry.npmjs.org/@rushstack%2feslint-patch 211ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/@rushstack%2feslint-patch set size:undefined disposed:false
+117 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2feslint-plugin 115ms (cache revalidated)
+118 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2feslint-plugin set size:17380170 disposed:false
+119 http fetch GET 200 https://registry.npmjs.org/@eslint%2fjs 578ms (cache revalidated)
+120 silly packumentCache full:https://registry.npmjs.org/@eslint%2fjs set size:139563 disposed:false
+121 silly placeDep ROOT @eslint/eslintrc@2.1.4 OK for: eslint@8.57.1 want: ^2.1.4
+122 silly placeDep ROOT @eslint/js@8.57.1 OK for: eslint@8.57.1 want: 8.57.1
+123 silly placeDep ROOT @humanwhocodes/config-array@0.13.0 OK for: eslint@8.57.1 want: ^0.13.0
+124 silly placeDep ROOT @ungap/structured-clone@1.3.0 OK for: eslint@8.57.1 want: ^1.2.0
+125 silly placeDep ROOT ajv@6.12.6 OK for: eslint@8.57.1 want: ^6.12.4
+126 silly placeDep node_modules/eslint doctrine@3.0.0 OK for: eslint@8.57.1 want: ^3.0.0
+127 silly placeDep ROOT eslint-scope@7.2.2 OK for: eslint@8.57.1 want: ^7.2.2
+128 silly placeDep ROOT eslint-visitor-keys@3.4.3 OK for: eslint@8.57.1 want: ^3.4.3
+129 silly placeDep ROOT espree@9.6.1 OK for: eslint@8.57.1 want: ^9.6.1
+130 silly placeDep ROOT fast-deep-equal@3.1.3 OK for: eslint@8.57.1 want: ^3.1.3
+131 silly placeDep ROOT file-entry-cache@6.0.1 OK for: eslint@8.57.1 want: ^6.0.1
+132 silly placeDep ROOT globals@13.24.0 OK for: eslint@8.57.1 want: ^13.19.0
+133 silly placeDep ROOT graphemer@1.4.0 OK for: eslint@8.57.1 want: ^1.4.0
+134 silly placeDep ROOT ignore@5.3.2 OK for: eslint@8.57.1 want: ^5.2.0
+135 silly placeDep ROOT is-path-inside@3.0.3 OK for: eslint@8.57.1 want: ^3.0.3
+136 silly placeDep ROOT js-yaml@4.1.1 OK for: eslint@8.57.1 want: ^4.1.0
+137 silly placeDep ROOT strip-ansi@6.0.1 OK for: eslint@8.57.1 want: ^6.0.1
+138 silly placeDep ROOT text-table@0.2.0 OK for: eslint@8.57.1 want: ^0.2.0
+139 silly fetch manifest espree@^9.6.0
+140 silly packumentCache full:https://registry.npmjs.org/espree cache-hit
+141 silly fetch manifest import-fresh@^3.2.1
+142 silly packumentCache full:https://registry.npmjs.org/import-fresh cache-miss
+143 silly fetch manifest strip-json-comments@^3.1.1
+144 silly packumentCache full:https://registry.npmjs.org/strip-json-comments cache-miss
+145 silly fetch manifest @humanwhocodes/object-schema@^2.0.3
+146 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fobject-schema cache-miss
+147 silly fetch manifest uri-js@^4.2.2
+148 silly packumentCache full:https://registry.npmjs.org/uri-js cache-miss
+149 silly fetch manifest fast-deep-equal@^3.1.1
+150 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-hit
+151 silly fetch manifest json-schema-traverse@^0.4.1
+152 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse cache-miss
+153 silly fetch manifest fast-json-stable-stringify@^2.0.0
+154 silly packumentCache full:https://registry.npmjs.org/fast-json-stable-stringify cache-miss
+155 silly fetch manifest esrecurse@^4.3.0
+156 silly packumentCache full:https://registry.npmjs.org/esrecurse cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/import-fresh 39ms (cache revalidated)
+158 silly packumentCache full:https://registry.npmjs.org/import-fresh set size:21461 disposed:false
+159 silly fetch manifest acorn@^8.9.0
+160 silly packumentCache full:https://registry.npmjs.org/acorn cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 40ms (cache revalidated)
+162 silly packumentCache full:https://registry.npmjs.org/json-schema-traverse set size:23537 disposed:false
+163 silly fetch manifest acorn-jsx@^5.3.2
+164 silly packumentCache full:https://registry.npmjs.org/acorn-jsx cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 42ms (cache revalidated)
+166 silly packumentCache full:https://registry.npmjs.org/strip-json-comments set size:43569 disposed:false
+167 silly fetch manifest flat-cache@^3.0.4
+168 silly packumentCache full:https://registry.npmjs.org/flat-cache cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify 43ms (cache revalidated)
+170 silly packumentCache full:https://registry.npmjs.org/fast-json-stable-stringify set size:11337 disposed:false
+171 silly fetch manifest type-fest@^0.20.2
+172 silly packumentCache full:https://registry.npmjs.org/type-fest cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/uri-js 46ms (cache revalidated)
+174 silly packumentCache full:https://registry.npmjs.org/uri-js set size:42559 disposed:false
+175 silly fetch manifest argparse@^2.0.1
+176 silly packumentCache full:https://registry.npmjs.org/argparse cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/esrecurse 47ms (cache revalidated)
+178 silly packumentCache full:https://registry.npmjs.org/esrecurse set size:29005 disposed:false
+179 silly fetch manifest ansi-regex@^5.0.1
+180 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/acorn-jsx 37ms (cache revalidated)
+182 silly packumentCache full:https://registry.npmjs.org/acorn-jsx set size:71068 disposed:false
+183 http fetch GET 200 https://registry.npmjs.org/acorn 45ms (cache revalidated)
+184 silly packumentCache full:https://registry.npmjs.org/acorn set size:377362 disposed:false
+185 http fetch GET 200 https://registry.npmjs.org/ansi-regex 41ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:undefined disposed:false
+187 http fetch GET 200 https://registry.npmjs.org/flat-cache 58ms (cache revalidated)
+188 silly packumentCache full:https://registry.npmjs.org/flat-cache set size:164041 disposed:false
+189 http fetch GET 200 https://registry.npmjs.org/type-fest 75ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/type-fest set size:undefined disposed:false
+191 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes%2fobject-schema 151ms (cache miss)
+192 silly packumentCache full:https://registry.npmjs.org/@humanwhocodes%2fobject-schema set size:undefined disposed:false
+193 http fetch GET 200 https://registry.npmjs.org/argparse 180ms (cache revalidated)
+194 silly packumentCache full:https://registry.npmjs.org/argparse set size:49266 disposed:false
+195 silly placeDep ROOT import-fresh@3.3.1 OK for: @eslint/eslintrc@2.1.4 want: ^3.2.1
+196 silly placeDep ROOT strip-json-comments@3.1.1 OK for: @eslint/eslintrc@2.1.4 want: ^3.1.1
+197 silly fetch manifest parent-module@^1.0.0
+198 silly packumentCache full:https://registry.npmjs.org/parent-module cache-miss
+199 silly fetch manifest resolve-from@^4.0.0
+200 silly packumentCache full:https://registry.npmjs.org/resolve-from cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/parent-module 38ms (cache revalidated)
+202 silly packumentCache full:https://registry.npmjs.org/parent-module set size:18255 disposed:false
+203 http fetch GET 200 https://registry.npmjs.org/resolve-from 42ms (cache revalidated)
+204 silly packumentCache full:https://registry.npmjs.org/resolve-from set size:12911 disposed:false
+205 silly placeDep ROOT @humanwhocodes/object-schema@2.0.3 OK for: @humanwhocodes/config-array@0.13.0 want: ^2.0.3
+206 silly placeDep ROOT fast-json-stable-stringify@2.1.0 OK for: ajv@6.12.6 want: ^2.0.0
+207 silly placeDep ROOT json-schema-traverse@0.4.1 OK for: ajv@6.12.6 want: ^0.4.1
+208 silly placeDep ROOT uri-js@4.4.1 OK for: ajv@6.12.6 want: ^4.2.2
+209 silly fetch manifest punycode@^2.1.0
+210 silly packumentCache full:https://registry.npmjs.org/punycode cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/punycode 39ms (cache revalidated)
+212 silly packumentCache full:https://registry.npmjs.org/punycode set size:61302 disposed:false
+213 silly fetch manifest eslint@^7.23.0 || ^8.0.0 || ^9.0.0
+214 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+215 http cache https://registry.npmjs.org/eslint 5ms (cache hit)
+216 silly packumentCache full:https://registry.npmjs.org/eslint set size:1929113 disposed:false
+217 silly fetch manifest jiti@*
+218 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+219 http fetch GET 200 https://registry.npmjs.org/jiti 180ms (cache revalidated)
+220 silly packumentCache full:https://registry.npmjs.org/jiti set size:382310 disposed:false
+221 silly fetch manifest typescript@>=3.3.1
+222 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+223 http cache https://registry.npmjs.org/typescript 26ms (cache hit)
+224 silly packumentCache full:https://registry.npmjs.org/typescript set size:15216073 disposed:false
+225 silly placeDep ROOT @next/eslint-plugin-next@15.1.0 OK for: eslint-config-next@15.1.0 want: 15.1.0
+226 silly placeDep ROOT @rushstack/eslint-patch@1.15.0 OK for: eslint-config-next@15.1.0 want: ^1.10.3
+227 silly placeDep ROOT @typescript-eslint/eslint-plugin@8.54.0 OK for: eslint-config-next@15.1.0 want: ^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0
+228 silly placeDep ROOT @typescript-eslint/parser@8.54.0 OK for: @typescript-eslint/eslint-plugin@8.54.0 want: ^8.54.0
+229 silly placeDep ROOT eslint-plugin-react-hooks@5.2.0 OK for: eslint-config-next@15.1.0 want: ^5.0.0
+230 silly fetch manifest fast-glob@3.3.1
+231 silly packumentCache full:https://registry.npmjs.org/fast-glob cache-miss
+232 silly fetch manifest ignore@^7.0.5
+233 silly packumentCache full:https://registry.npmjs.org/ignore cache-hit
+234 silly fetch manifest ts-api-utils@^2.4.0
+235 silly packumentCache full:https://registry.npmjs.org/ts-api-utils cache-miss
+236 silly fetch manifest @typescript-eslint/utils@8.54.0
+237 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils cache-miss
+238 silly fetch manifest @typescript-eslint/type-utils@8.54.0
+239 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftype-utils cache-miss
+240 silly fetch manifest @typescript-eslint/visitor-keys@8.54.0
+241 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys cache-miss
+242 silly fetch manifest @typescript-eslint/scope-manager@8.54.0
+243 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager cache-miss
+244 silly fetch manifest @typescript-eslint/types@8.54.0
+245 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes cache-miss
+246 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fscope-manager 69ms (cache revalidated)
+247 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fscope-manager set size:12024985 disposed:false
+248 silly fetch manifest @typescript-eslint/visitor-keys@8.54.0
+249 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys cache-miss
+250 http fetch GET 200 https://registry.npmjs.org/ts-api-utils 107ms (cache revalidated)
+251 silly packumentCache full:https://registry.npmjs.org/ts-api-utils set size:220519 disposed:false
+252 silly fetch manifest @typescript-eslint/typescript-estree@8.54.0
+253 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree cache-miss
+254 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2futils 116ms (cache revalidated)
+255 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2futils set size:9688774 disposed:false
+256 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys 149ms (cache revalidated)
+257 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys set size:11462134 disposed:false
+258 http cache https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys 104ms (cache hit)
+259 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fvisitor-keys set size:11462134 disposed:false
+260 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftypes 246ms (cache revalidated)
+261 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypes set size:11829893 disposed:false
+262 http fetch GET 200 https://registry.npmjs.org/fast-glob 287ms (cache revalidated)
+263 silly packumentCache full:https://registry.npmjs.org/fast-glob set size:220556 disposed:false
+264 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftype-utils 294ms (cache revalidated)
+265 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftype-utils set size:8903313 disposed:false
+266 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree 242ms (cache revalidated)
+267 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftypescript-estree set size:15942155 disposed:false
+268 silly placeDep ROOT fast-glob@3.3.1 OK for: @next/eslint-plugin-next@15.1.0 want: 3.3.1
+269 silly fetch manifest merge2@^1.3.0
+270 silly packumentCache full:https://registry.npmjs.org/merge2 cache-miss
+271 silly fetch manifest micromatch@^4.0.4
+272 silly packumentCache full:https://registry.npmjs.org/micromatch cache-miss
+273 silly fetch manifest glob-parent@^5.1.2
+274 silly packumentCache full:https://registry.npmjs.org/glob-parent cache-miss
+275 http fetch GET 200 https://registry.npmjs.org/micromatch 36ms (cache revalidated)
+276 silly packumentCache full:https://registry.npmjs.org/micromatch set size:240630 disposed:false
+277 http fetch GET 200 https://registry.npmjs.org/glob-parent 39ms (cache revalidated)
+278 silly packumentCache full:https://registry.npmjs.org/glob-parent set size:42445 disposed:false
+279 http fetch GET 200 https://registry.npmjs.org/merge2 42ms (cache revalidated)
+280 silly packumentCache full:https://registry.npmjs.org/merge2 set size:46159 disposed:false
+281 silly fetch manifest typescript@>=4.8.4 <6.0.0
+282 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+283 http cache https://registry.npmjs.org/typescript 15ms (cache hit)
+284 silly packumentCache full:https://registry.npmjs.org/typescript set size:15216073 disposed:false
+285 silly fetch manifest eslint@^8.57.0 || ^9.0.0
+286 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+287 http cache https://registry.npmjs.org/eslint 8ms (cache hit)
+288 silly packumentCache full:https://registry.npmjs.org/eslint set size:1929113 disposed:false
+289 silly placeDep ROOT @typescript-eslint/scope-manager@8.54.0 OK for: @typescript-eslint/eslint-plugin@8.54.0 want: 8.54.0
+290 silly placeDep ROOT @typescript-eslint/type-utils@8.54.0 OK for: @typescript-eslint/eslint-plugin@8.54.0 want: 8.54.0
+291 silly placeDep ROOT @typescript-eslint/utils@8.54.0 OK for: @typescript-eslint/eslint-plugin@8.54.0 want: 8.54.0
+292 silly placeDep ROOT @typescript-eslint/visitor-keys@8.54.0 OK for: @typescript-eslint/eslint-plugin@8.54.0 want: 8.54.0
+293 silly placeDep node_modules/@typescript-eslint/eslint-plugin ignore@7.0.5 OK for: @typescript-eslint/eslint-plugin@8.54.0 want: ^7.0.5
+294 silly placeDep ROOT ts-api-utils@2.4.0 OK for: @typescript-eslint/eslint-plugin@8.54.0 want: ^2.4.0
+295 silly fetch manifest eslint-visitor-keys@^4.2.1
+296 silly packumentCache full:https://registry.npmjs.org/eslint-visitor-keys cache-hit
+297 silly placeDep ROOT @typescript-eslint/types@8.54.0 OK for: @typescript-eslint/parser@8.54.0 want: 8.54.0
+298 silly placeDep ROOT @typescript-eslint/typescript-estree@8.54.0 OK for: @typescript-eslint/parser@8.54.0 want: 8.54.0
+299 silly fetch manifest semver@^7.7.3
+300 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+301 silly fetch manifest minimatch@^9.0.5
+302 silly packumentCache full:https://registry.npmjs.org/minimatch cache-miss
+303 silly fetch manifest @typescript-eslint/tsconfig-utils@8.54.0
+304 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils cache-miss
+305 silly fetch manifest @typescript-eslint/project-service@8.54.0
+306 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fproject-service cache-miss
+307 http fetch GET 200 https://registry.npmjs.org/semver 39ms (cache revalidated)
+308 silly packumentCache full:https://registry.npmjs.org/semver set size:229678 disposed:false
+309 http fetch GET 200 https://registry.npmjs.org/minimatch 44ms (cache revalidated)
+310 silly packumentCache full:https://registry.npmjs.org/minimatch set size:306302 disposed:false
+311 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2fproject-service 48ms (cache revalidated)
+312 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2fproject-service set size:923211 disposed:false
+313 http fetch GET 200 https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils 53ms (cache revalidated)
+314 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils set size:868091 disposed:false
+315 silly placeDep ROOT @typescript-eslint/project-service@8.54.0 OK for: @typescript-eslint/typescript-estree@8.54.0 want: 8.54.0
+316 silly placeDep ROOT @typescript-eslint/tsconfig-utils@8.54.0 OK for: @typescript-eslint/typescript-estree@8.54.0 want: 8.54.0
+317 silly placeDep node_modules/@typescript-eslint/typescript-estree minimatch@9.0.5 OK for: @typescript-eslint/typescript-estree@8.54.0 want: ^9.0.5
+318 silly placeDep node_modules/@typescript-eslint/typescript-estree semver@7.7.4 OK for: @typescript-eslint/typescript-estree@8.54.0 want: ^7.7.3
+319 silly fetch manifest @typescript-eslint/tsconfig-utils@^8.54.0
+320 silly packumentCache full:https://registry.npmjs.org/@typescript-eslint%2ftsconfig-utils cache-hit
+321 silly fetch manifest brace-expansion@^2.0.1
+322 silly packumentCache full:https://registry.npmjs.org/brace-expansion cache-miss
+323 http fetch GET 200 https://registry.npmjs.org/brace-expansion 38ms (cache revalidated)
+324 silly packumentCache full:https://registry.npmjs.org/brace-expansion set size:46250 disposed:false
+325 silly placeDep node_modules/@typescript-eslint/visitor-keys eslint-visitor-keys@4.2.1 OK for: @typescript-eslint/visitor-keys@8.54.0 want: ^4.2.1
+326 silly placeDep ROOT esrecurse@4.3.0 OK for: eslint-scope@7.2.2 want: ^4.3.0
+327 silly placeDep ROOT acorn@8.15.0 OK for: espree@9.6.1 want: ^8.9.0
+328 silly placeDep ROOT acorn-jsx@5.3.2 OK for: espree@9.6.1 want: ^5.3.2
+329 silly placeDep node_modules/fast-glob glob-parent@5.1.2 OK for: fast-glob@3.3.1 want: ^5.1.2
+330 silly placeDep ROOT merge2@1.4.1 OK for: fast-glob@3.3.1 want: ^1.3.0
+331 silly placeDep ROOT micromatch@4.0.8 OK for: fast-glob@3.3.1 want: ^4.0.4
+332 silly fetch manifest braces@^3.0.3
+333 silly packumentCache full:https://registry.npmjs.org/braces cache-miss
+334 silly fetch manifest picomatch@^2.3.1
+335 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+336 http fetch GET 200 https://registry.npmjs.org/braces 39ms (cache revalidated)
+337 silly packumentCache full:https://registry.npmjs.org/braces set size:114529 disposed:false
+338 http fetch GET 200 https://registry.npmjs.org/picomatch 43ms (cache revalidated)
+339 silly packumentCache full:https://registry.npmjs.org/picomatch set size:118818 disposed:false
+340 silly placeDep ROOT flat-cache@3.2.0 OK for: file-entry-cache@6.0.1 want: ^3.0.4
+341 silly fetch manifest keyv@^4.5.3
+342 silly packumentCache full:https://registry.npmjs.org/keyv cache-miss
+343 silly fetch manifest rimraf@^3.0.2
+344 silly packumentCache full:https://registry.npmjs.org/rimraf cache-miss
+345 silly fetch manifest flatted@^3.2.9
+346 silly packumentCache full:https://registry.npmjs.org/flatted cache-miss
+347 http fetch GET 200 https://registry.npmjs.org/flatted 43ms (cache revalidated)
+348 silly packumentCache full:https://registry.npmjs.org/flatted set size:126610 disposed:false
+349 http fetch GET 200 https://registry.npmjs.org/keyv 45ms (cache revalidated)
+350 silly packumentCache full:https://registry.npmjs.org/keyv set size:235223 disposed:false
+351 http fetch GET 200 https://registry.npmjs.org/rimraf 47ms (cache miss)
+352 silly packumentCache full:https://registry.npmjs.org/rimraf set size:undefined disposed:false
+353 silly placeDep ROOT flatted@3.3.3 OK for: flat-cache@3.2.0 want: ^3.2.9
+354 silly placeDep ROOT keyv@4.5.4 OK for: flat-cache@3.2.0 want: ^4.5.3
+355 silly placeDep ROOT rimraf@3.0.2 OK for: flat-cache@3.2.0 want: ^3.0.2
+356 silly fetch manifest json-buffer@3.0.1
+357 silly packumentCache full:https://registry.npmjs.org/json-buffer cache-miss
+358 silly fetch manifest glob@^7.1.3
+359 silly packumentCache full:https://registry.npmjs.org/glob cache-miss
+360 http fetch GET 200 https://registry.npmjs.org/json-buffer 38ms (cache revalidated)
+361 silly packumentCache full:https://registry.npmjs.org/json-buffer set size:23474 disposed:false
+362 http fetch GET 200 https://registry.npmjs.org/glob 51ms (cache miss)
+363 silly packumentCache full:https://registry.npmjs.org/glob set size:undefined disposed:false
+364 silly placeDep ROOT type-fest@0.20.2 OK for: globals@13.24.0 want: ^0.20.2
+365 silly placeDep ROOT parent-module@1.0.1 OK for: import-fresh@3.3.1 want: ^1.0.0
+366 silly placeDep ROOT resolve-from@4.0.0 OK for: import-fresh@3.3.1 want: ^4.0.0
+367 silly fetch manifest callsites@^3.0.0
+368 silly packumentCache full:https://registry.npmjs.org/callsites cache-miss
+369 http fetch GET 200 https://registry.npmjs.org/callsites 37ms (cache revalidated)
+370 silly packumentCache full:https://registry.npmjs.org/callsites set size:21349 disposed:false
+371 silly placeDep ROOT argparse@2.0.1 OK for: js-yaml@4.1.1 want: ^2.0.1
+372 silly placeDep ROOT json-buffer@3.0.1 OK for: keyv@4.5.4 want: 3.0.1
+373 silly placeDep ROOT braces@3.0.3 OK for: micromatch@4.0.8 want: ^3.0.3
+374 silly placeDep ROOT picomatch@2.3.1 OK for: micromatch@4.0.8 want: ^2.3.1
+375 silly fetch manifest fill-range@^7.1.1
+376 silly packumentCache full:https://registry.npmjs.org/fill-range cache-miss
+377 http fetch GET 200 https://registry.npmjs.org/fill-range 47ms (cache revalidated)
+378 silly packumentCache full:https://registry.npmjs.org/fill-range set size:90212 disposed:false
+379 silly placeDep ROOT fill-range@7.1.1 OK for: braces@3.0.3 want: ^7.1.1
+380 silly fetch manifest to-regex-range@^5.0.1
+381 silly packumentCache full:https://registry.npmjs.org/to-regex-range cache-miss
+382 http fetch GET 200 https://registry.npmjs.org/to-regex-range 45ms (cache revalidated)
+383 silly packumentCache full:https://registry.npmjs.org/to-regex-range set size:61569 disposed:false
+384 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.1.1 want: ^5.0.1
+385 silly fetch manifest is-number@^7.0.0
+386 silly packumentCache full:https://registry.npmjs.org/is-number cache-miss
+387 http fetch GET 200 https://registry.npmjs.org/is-number 39ms (cache revalidated)
+388 silly packumentCache full:https://registry.npmjs.org/is-number set size:36183 disposed:false
+389 silly placeDep ROOT callsites@3.1.0 OK for: parent-module@1.0.1 want: ^3.0.0
+390 silly placeDep ROOT glob@7.2.3 OK for: rimraf@3.0.2 want: ^7.1.3
+391 silly fetch manifest once@^1.3.0
+392 silly packumentCache full:https://registry.npmjs.org/once cache-miss
+393 silly fetch manifest inflight@^1.0.4
+394 silly packumentCache full:https://registry.npmjs.org/inflight cache-miss
+395 silly fetch manifest inherits@2
+396 silly packumentCache full:https://registry.npmjs.org/inherits cache-miss
+397 silly fetch manifest fs.realpath@^1.0.0
+398 silly packumentCache full:https://registry.npmjs.org/fs.realpath cache-miss
+399 silly fetch manifest path-is-absolute@^1.0.0
+400 silly packumentCache full:https://registry.npmjs.org/path-is-absolute cache-miss
+401 http fetch GET 200 https://registry.npmjs.org/inflight 44ms (cache miss)
+402 silly packumentCache full:https://registry.npmjs.org/inflight set size:undefined disposed:false
+403 http fetch GET 200 https://registry.npmjs.org/inherits 45ms (cache miss)
+404 silly packumentCache full:https://registry.npmjs.org/inherits set size:undefined disposed:false
+405 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 46ms (cache miss)
+406 silly packumentCache full:https://registry.npmjs.org/path-is-absolute set size:undefined disposed:false
+407 http fetch GET 200 https://registry.npmjs.org/once 47ms (cache miss)
+408 silly packumentCache full:https://registry.npmjs.org/once set size:undefined disposed:false
+409 http fetch GET 200 https://registry.npmjs.org/fs.realpath 49ms (cache miss)
+410 silly packumentCache full:https://registry.npmjs.org/fs.realpath set size:undefined disposed:false
+411 silly placeDep ROOT fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+412 silly placeDep ROOT inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+413 silly placeDep ROOT inherits@2.0.4 OK for: glob@7.2.3 want: 2
+414 silly placeDep ROOT once@1.4.0 OK for: glob@7.2.3 want: ^1.3.0
+415 silly placeDep ROOT path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+416 silly fetch manifest wrappy@1
+417 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+418 silly fetch manifest wrappy@1
+419 silly packumentCache full:https://registry.npmjs.org/wrappy cache-miss
+420 http fetch GET 200 https://registry.npmjs.org/wrappy 47ms (cache miss)
+421 silly packumentCache full:https://registry.npmjs.org/wrappy set size:undefined disposed:false
+422 http fetch GET 200 https://registry.npmjs.org/wrappy 48ms (cache miss)
+423 silly packumentCache full:https://registry.npmjs.org/wrappy set size:undefined disposed:false
+424 silly placeDep ROOT wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+425 silly placeDep ROOT ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+426 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+427 silly placeDep ROOT punycode@2.3.1 OK for: uri-js@4.4.1 want: ^2.1.0
+428 silly placeDep node_modules/@typescript-eslint/typescript-estree brace-expansion@2.0.2 OK for: minimatch@9.0.5 want: ^2.0.1
+429 silly reify mark retired [
+429 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/baseline-browser-mapping',
+429 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/baseline-browser-mapping'
+429 silly reify ]
+430 silly reify mark retired [
+430 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/browserslist',
+430 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/browserslist'
+430 silly reify ]
+431 silly reify mark retired [
+431 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/convert-source-map'
+431 silly reify ]
+432 silly reify mark retired [
+432 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/electron-to-chromium'
+432 silly reify ]
+433 silly reify mark retired [
+433 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/escalade'
+433 silly reify ]
+434 silly reify mark retired [
+434 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint-config-next'
+434 silly reify ]
+435 silly reify mark retired [
+435 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint',
+435 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/eslint'
+435 silly reify ]
+436 silly reify mark retired [
+436 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint-plugin-react-hooks'
+436 silly reify ]
+437 silly reify mark retired [
+437 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint-visitor-keys'
+437 silly reify ]
+438 silly reify mark retired [
+438 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint-scope'
+438 silly reify ]
+439 silly reify mark retired [
+439 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/espree'
+439 silly reify ]
+440 silly reify mark retired [
+440 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/file-entry-cache'
+440 silly reify ]
+441 silly reify mark retired [
+441 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/flat-cache'
+441 silly reify ]
+442 silly reify mark retired [
+442 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/gensync'
+442 silly reify ]
+443 silly reify mark retired [
+443 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/globals'
+443 silly reify ]
+444 silly reify mark retired [
+444 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/hermes-estree'
+444 silly reify ]
+445 silly reify mark retired [
+445 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/hermes-parser'
+445 silly reify ]
+446 silly reify mark retired [
+446 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/jsesc',
+446 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/jsesc'
+446 silly reify ]
+447 silly reify mark retired [
+447 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/json5',
+447 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/json5'
+447 silly reify ]
+448 silly reify mark retired [
+448 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/lru-cache'
+448 silly reify ]
+449 silly reify mark retired [
+449 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/node-releases'
+449 silly reify ]
+450 silly reify mark retired [
+450 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/typescript-eslint'
+450 silly reify ]
+451 silly reify mark retired [
+451 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/update-browserslist-db',
+451 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/update-browserslist-db'
+451 silly reify ]
+452 silly reify mark retired [
+452 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/yallist'
+452 silly reify ]
+453 silly reify mark retired [
+453 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/zod'
+453 silly reify ]
+454 silly reify mark retired [
+454 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/zod-validation-error'
+454 silly reify ]
+455 silly reify mark retired [
+455 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/code-frame'
+455 silly reify ]
+456 silly reify mark retired [
+456 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/core'
+456 silly reify ]
+457 silly reify mark retired [
+457 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-compilation-targets'
+457 silly reify ]
+458 silly reify mark retired [
+458 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-globals'
+458 silly reify ]
+459 silly reify mark retired [
+459 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-module-imports'
+459 silly reify ]
+460 silly reify mark retired [
+460 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/compat-data'
+460 silly reify ]
+461 silly reify mark retired [
+461 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-validator-identifier'
+461 silly reify ]
+462 silly reify mark retired [
+462 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-module-transforms'
+462 silly reify ]
+463 silly reify mark retired [
+463 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-validator-option'
+463 silly reify ]
+464 silly reify mark retired [
+464 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/generator'
+464 silly reify ]
+465 silly reify mark retired [
+465 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-string-parser'
+465 silly reify ]
+466 silly reify mark retired [
+466 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/parser',
+466 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/parser'
+466 silly reify ]
+467 silly reify mark retired [
+467 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helpers'
+467 silly reify ]
+468 silly reify mark retired [
+468 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/template'
+468 silly reify ]
+469 silly reify mark retired [
+469 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/traverse'
+469 silly reify ]
+470 silly reify mark retired [
+470 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/types'
+470 silly reify ]
+471 silly reify mark retired [
+471 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/config-array'
+471 silly reify ]
+472 silly reify mark retired [
+472 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/config-helpers'
+472 silly reify ]
+473 silly reify mark retired [
+473 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/core'
+473 silly reify ]
+474 silly reify mark retired [
+474 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/js'
+474 silly reify ]
+475 silly reify mark retired [
+475 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/object-schema'
+475 silly reify ]
+476 silly reify mark retired [
+476 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys'
+476 silly reify ]
+477 silly reify mark retired [
+477 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/eslintrc'
+477 silly reify ]
+478 silly reify mark retired [
+478 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/plugin-kit'
+478 silly reify ]
+479 silly reify mark retired [
+479 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanfs/core'
+479 silly reify ]
+480 silly reify mark retired [
+480 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanfs/node'
+480 silly reify ]
+481 silly reify mark retired [
+481 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanwhocodes/retry'
+481 silly reify ]
+482 silly reify mark retired [
+482 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@next/eslint-plugin-next'
+482 silly reify ]
+483 silly reify mark retired [
+483 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@types/json-schema'
+483 silly reify ]
+484 silly reify mark retired [
+484 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@types/estree'
+484 silly reify ]
+485 silly reify moves {
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/baseline-browser-mapping': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.baseline-browser-mapping-JULlrJuB',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/baseline-browser-mapping': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/.baseline-browser-mapping-dvPVx3La',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/browserslist': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.browserslist-zuzI4pkE',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/browserslist': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/.browserslist-2Gb8PHhC',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/convert-source-map': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.convert-source-map-7pFiX5Cs',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/electron-to-chromium': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.electron-to-chromium-XOvy6aUO',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/escalade': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.escalade-nWEgSeel',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint-config-next': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.eslint-config-next-4hagl9mJ',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.eslint-gkKbDG2z',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/eslint': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/.eslint-PX5ZCy31',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint-plugin-react-hooks': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.eslint-plugin-react-hooks-lSYAwhOM',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint-visitor-keys': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.eslint-visitor-keys-BGuLYXiO',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/eslint-scope': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.eslint-scope-1pwZS9AP',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/espree': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.espree-9fHueyxy',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/file-entry-cache': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.file-entry-cache-ZpP3NjFe',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/flat-cache': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.flat-cache-bETJ70dJ',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/gensync': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.gensync-Vvo3trrw',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/globals': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.globals-53BmKpMD',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/hermes-estree': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.hermes-estree-QCkbKSQu',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/hermes-parser': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.hermes-parser-5bPmPVJy',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/jsesc': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.jsesc-C3PkBbAh',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/jsesc': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/.jsesc-BKg10CIP',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/json5': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.json5-VfS3bfUy',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/json5': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/.json5-EvZjlz1N',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/lru-cache': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.lru-cache-ikLDftSB',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/node-releases': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.node-releases-5WLkS8q6',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/typescript-eslint': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.typescript-eslint-kJkdrPkG',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/update-browserslist-db': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.update-browserslist-db-oVGp3N5u',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/update-browserslist-db': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/.update-browserslist-db-HA54COGt',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/yallist': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.yallist-7YpRDyIM',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/zod': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.zod-Ioan7vde',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/zod-validation-error': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.zod-validation-error-uaXPYdgQ',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/code-frame': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.code-frame-YhD4Owpy',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/core': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.core-1GsSY4RE',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-compilation-targets': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.helper-compilation-targets-NaFJIDSy',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-globals': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.helper-globals-oVppKJGv',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-module-imports': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.helper-module-imports-kMa0kXRW',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/compat-data': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.compat-data-pxTa3s88',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-validator-identifier': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.helper-validator-identifier-T6FSQJvN',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-module-transforms': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.helper-module-transforms-dvDVKVSR',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-validator-option': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.helper-validator-option-pGedCYSw',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/generator': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.generator-CeQTgcBm',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helper-string-parser': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.helper-string-parser-msn3CgS3',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/parser': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.parser-DEJn8qzl',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/parser': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/.bin/.parser-VMDzvKvG',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/helpers': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.helpers-Klxt0iSj',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/template': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.template-9wY9zGmw',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/traverse': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.traverse-w9Plgvmt',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/types': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@babel/.types-qgwz0Pq3',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/config-array': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/.config-array-Lwbuu4u2',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/config-helpers': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/.config-helpers-1Mpf54vy',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/core': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/.core-4NgehXBL',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/js': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/.js-mcCaDh5S',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/object-schema': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/.object-schema-DyBgSSJH',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint-community/eslint-utils/node_modules/.eslint-visitor-keys-BNq0rtrT',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/eslintrc': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/.eslintrc-cgpAF1xv',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/plugin-kit': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@eslint/.plugin-kit-6oIghBz6',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanfs/core': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanfs/.core-bnZFEme1',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanfs/node': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanfs/.node-LuiptfMe',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanwhocodes/retry': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@humanwhocodes/.retry-Qf6C75t1',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@next/eslint-plugin-next': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@next/.eslint-plugin-next-OMOh0fXZ',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@types/json-schema': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@types/.json-schema-MKK8TuX3',
+485 silly reify   '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@types/estree': '/Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito/node_modules/@types/.estree-8w5ZYhxI'
+485 silly reify }
+486 silly audit bulk request {
+486 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+486 silly audit   '@babel/runtime': [ '7.28.6' ],
+486 silly audit   '@dimforge/rapier3d-compat': [ '0.12.0' ],
+486 silly audit   '@emnapi/core': [ '1.8.1' ],
+486 silly audit   '@emnapi/runtime': [ '1.8.1' ],
+486 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+486 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+486 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+486 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+486 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+486 silly audit   '@img/sharp-darwin-arm64': [ '0.33.5' ],
+486 silly audit   '@img/sharp-darwin-x64': [ '0.33.5' ],
+486 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.0.4' ],
+486 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.0.4' ],
+486 silly audit   '@img/sharp-libvips-linux-arm': [ '1.0.5' ],
+486 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.0.4' ],
+486 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.0.4' ],
+486 silly audit   '@img/sharp-libvips-linux-x64': [ '1.0.4' ],
+486 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.0.4' ],
+486 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.0.4' ],
+486 silly audit   '@img/sharp-linux-arm': [ '0.33.5' ],
+486 silly audit   '@img/sharp-linux-arm64': [ '0.33.5' ],
+486 silly audit   '@img/sharp-linux-s390x': [ '0.33.5' ],
+486 silly audit   '@img/sharp-linux-x64': [ '0.33.5' ],
+486 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.33.5' ],
+486 silly audit   '@img/sharp-linuxmusl-x64': [ '0.33.5' ],
+486 silly audit   '@img/sharp-wasm32': [ '0.33.5' ],
+486 silly audit   '@img/sharp-win32-ia32': [ '0.33.5' ],
+486 silly audit   '@img/sharp-win32-x64': [ '0.33.5' ],
+486 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+486 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+486 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+486 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+486 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+486 silly audit   '@mediapipe/tasks-vision': [ '0.10.17' ],
+486 silly audit   '@monogrid/gainmap-js': [ '3.4.0' ],
+486 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+486 silly audit   '@next/env': [ '15.1.0' ],
+486 silly audit   '@next/swc-darwin-arm64': [ '15.1.0' ],
+486 silly audit   '@next/swc-darwin-x64': [ '15.1.0' ],
+486 silly audit   '@next/swc-linux-arm64-gnu': [ '15.1.0' ],
+486 silly audit   '@next/swc-linux-arm64-musl': [ '15.1.0' ],
+486 silly audit   '@next/swc-linux-x64-gnu': [ '15.1.0' ],
+486 silly audit   '@next/swc-linux-x64-musl': [ '15.1.0' ],
+486 silly audit   '@next/swc-win32-arm64-msvc': [ '15.1.0' ],
+486 silly audit   '@next/swc-win32-x64-msvc': [ '15.1.0' ],
+486 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+486 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+486 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+486 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+486 silly audit   '@prisma/client': [ '6.19.2' ],
+486 silly audit   '@prisma/config': [ '6.19.2' ],
+486 silly audit   '@prisma/debug': [ '6.19.2' ],
+486 silly audit   '@prisma/engines': [ '6.19.2' ],
+486 silly audit   '@prisma/engines-version': [ '7.1.1-3.c2990dca591cba766e3b7ef5d9e8a84796e47ab7' ],
+486 silly audit   '@prisma/fetch-engine': [ '6.19.2' ],
+486 silly audit   '@prisma/get-platform': [ '6.19.2' ],
+486 silly audit   '@react-three/drei': [ '10.7.7' ],
+486 silly audit   '@react-three/fiber': [ '9.5.0' ],
+486 silly audit   '@rtsao/scc': [ '1.1.0' ],
+486 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+486 silly audit   '@swc/counter': [ '0.1.3' ],
+486 silly audit   '@swc/helpers': [ '0.5.15' ],
+486 silly audit   '@tailwindcss/node': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.18' ],
+486 silly audit   '@tailwindcss/postcss': [ '4.1.18' ],
+486 silly audit   '@tweenjs/tween.js': [ '23.1.3' ],
+486 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+486 silly audit   '@types/draco3d': [ '1.4.10' ],
+486 silly audit   '@types/json5': [ '0.0.29' ],
+486 silly audit   '@types/node': [ '20.19.32' ],
+486 silly audit   '@types/offscreencanvas': [ '2019.7.3' ],
+486 silly audit   '@types/react': [ '19.2.13' ],
+486 silly audit   '@types/react-dom': [ '19.2.3' ],
+486 silly audit   '@types/react-reconciler': [ '0.28.9' ],
+486 silly audit   '@types/stats.js': [ '0.17.4' ],
+486 silly audit   '@types/three': [ '0.182.0' ],
+486 silly audit   '@types/webxr': [ '0.5.24' ],
+486 silly audit   'brace-expansion': [ '1.1.12', '2.0.2' ],
+486 silly audit   minimatch: [ '3.1.2', '9.0.5' ],
+486 silly audit   semver: [ '7.7.4', '6.3.1' ],
+486 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+486 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+486 silly audit   '@use-gesture/core': [ '10.3.1' ],
+486 silly audit   '@use-gesture/react': [ '10.3.1' ],
+486 silly audit   '@webgpu/types': [ '0.1.69' ],
+486 silly audit   'ansi-styles': [ '4.3.0' ],
+486 silly audit   'aria-query': [ '5.3.2' ],
+486 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+486 silly audit   'array-includes': [ '3.1.9' ],
+486 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+486 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+486 silly audit   'array.prototype.flat': [ '1.3.3' ],
+486 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+486 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+486 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+486 silly audit   'ast-types-flow': [ '0.0.8' ],
+486 silly audit   'async-function': [ '1.0.0' ],
+486 silly audit   'available-typed-arrays': [ '1.0.7' ],
+486 silly audit   'axe-core': [ '4.11.1' ],
+486 silly audit   'axobject-query': [ '4.1.0' ],
+486 silly audit   'balanced-match': [ '1.0.2' ],
+486 silly audit   'base64-js': [ '1.5.1' ],
+486 silly audit   'bidi-js': [ '1.0.3' ],
+486 silly audit   buffer: [ '6.0.3' ],
+486 silly audit   busboy: [ '1.6.0' ],
+486 silly audit   c12: [ '3.1.0' ],
+486 silly audit   'call-bind': [ '1.0.8' ],
+486 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+486 silly audit   'call-bound': [ '1.0.4' ],
+486 silly audit   'camera-controls': [ '3.1.2' ],
+486 silly audit   'caniuse-lite': [ '1.0.30001769' ],
+486 silly audit   chalk: [ '4.1.2' ],
+486 silly audit   chokidar: [ '4.0.3' ],
+486 silly audit   citty: [ '0.1.6', '0.2.0' ],
+486 silly audit   'client-only': [ '0.0.1' ],
+486 silly audit   clsx: [ '2.1.1' ],
+486 silly audit   color: [ '4.2.3' ],
+486 silly audit   'color-convert': [ '2.0.1' ],
+486 silly audit   'color-name': [ '1.1.4' ],
+486 silly audit   'color-string': [ '1.9.1' ],
+486 silly audit   'concat-map': [ '0.0.1' ],
+486 silly audit   confbox: [ '0.2.4' ],
+486 silly audit   consola: [ '3.4.2' ],
+486 silly audit   'cross-env': [ '7.0.3' ],
+486 silly audit   'cross-spawn': [ '7.0.6' ],
+486 silly audit   csstype: [ '3.2.3' ],
+486 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+486 silly audit   'data-view-buffer': [ '1.0.2' ],
+486 silly audit   'data-view-byte-length': [ '1.0.2' ],
+486 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+486 silly audit   debug: [ '4.4.3', '3.2.7' ],
+486 silly audit   'deep-is': [ '0.1.4' ],
+486 silly audit   'deepmerge-ts': [ '7.1.5' ],
+486 silly audit   'define-data-property': [ '1.1.4' ],
+486 silly audit   'define-properties': [ '1.2.1' ],
+486 silly audit   defu: [ '6.1.4' ],
+486 silly audit   destr: [ '2.0.5' ],
+486 silly audit   'detect-gpu': [ '5.0.70' ],
+486 silly audit   'detect-libc': [ '2.1.2' ],
+486 silly audit   doctrine: [ '2.1.0', '3.0.0' ],
+486 silly audit   dotenv: [ '16.6.1' ],
+486 silly audit   draco3d: [ '1.5.7' ],
+486 silly audit   'dunder-proto': [ '1.0.1' ],
+486 silly audit   effect: [ '3.18.4' ],
+486 silly audit   'emoji-regex': [ '9.2.2' ],
+486 silly audit   empathic: [ '2.0.0' ],
+486 silly audit   'enhanced-resolve': [ '5.19.0' ],
+486 silly audit   'es-abstract': [ '1.24.1' ],
+486 silly audit   'es-define-property': [ '1.0.1' ],
+486 silly audit   'es-errors': [ '1.3.0' ],
+486 silly audit   'es-iterator-helpers': [ '1.2.2' ],
+486 silly audit   'es-object-atoms': [ '1.1.1' ],
+486 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+486 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+486 silly audit   'es-to-primitive': [ '1.3.0' ],
+486 silly audit   'escape-string-regexp': [ '4.0.0' ],
+486 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+486 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+486 silly audit   'eslint-module-utils': [ '2.12.1' ],
+486 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+486 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+486 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+486 silly audit   resolve: [ '2.0.0-next.5', '1.22.11' ],
+486 silly audit   esquery: [ '1.7.0' ],
+486 silly audit   estraverse: [ '5.3.0' ],
+486 silly audit   esutils: [ '2.0.3' ],
+486 silly audit   exsolve: [ '1.0.8' ],
+486 silly audit   'fast-check': [ '3.23.2' ],
+486 silly audit   'glob-parent': [ '6.0.2', '5.1.2' ],
+486 silly audit   'fast-levenshtein': [ '2.0.6' ],
+486 silly audit   fastq: [ '1.20.1' ],
+486 silly audit   fflate: [ '0.8.2', '0.6.10' ],
+486 silly audit   'find-up': [ '5.0.0' ],
+486 silly audit   'for-each': [ '0.3.5' ],
+486 silly audit   'framer-motion': [ '12.33.0' ],
+486 silly audit   'function-bind': [ '1.1.2' ],
+486 silly audit   'function.prototype.name': [ '1.1.8' ],
+486 silly audit   'functions-have-names': [ '1.2.3' ],
+486 silly audit   'generator-function': [ '2.0.1' ],
+486 silly audit   'get-intrinsic': [ '1.3.0' ],
+486 silly audit   'get-proto': [ '1.0.1' ],
+486 silly audit   'get-symbol-description': [ '1.1.0' ],
+486 silly audit   'get-tsconfig': [ '4.13.6' ],
+486 silly audit   giget: [ '2.0.0' ],
+486 silly audit   globalthis: [ '1.0.4' ],
+486 silly audit   'glsl-noise': [ '0.0.0' ],
+486 silly audit   gopd: [ '1.2.0' ],
+486 silly audit   'graceful-fs': [ '4.2.11' ],
+486 silly audit   'has-bigints': [ '1.1.0' ],
+486 silly audit   'has-flag': [ '4.0.0' ],
+486 silly audit   'has-property-descriptors': [ '1.0.2' ],
+486 silly audit   'has-proto': [ '1.2.0' ],
+486 silly audit   'has-symbols': [ '1.1.0' ],
+486 silly audit   'has-tostringtag': [ '1.0.2' ],
+486 silly audit   hasown: [ '2.0.2' ],
+486 silly audit   'hls.js': [ '1.6.15' ],
+486 silly audit   ieee754: [ '1.2.1' ],
+486 silly audit   immediate: [ '3.0.6' ],
+486 silly audit   imurmurhash: [ '0.1.4' ],
+486 silly audit   'internal-slot': [ '1.1.0' ],
+486 silly audit   'is-array-buffer': [ '3.0.5' ],
+486 silly audit   'is-arrayish': [ '0.3.4' ],
+486 silly audit   'is-async-function': [ '2.1.1' ],
+486 silly audit   'is-bigint': [ '1.1.0' ],
+486 silly audit   'is-boolean-object': [ '1.2.2' ],
+486 silly audit   'is-bun-module': [ '2.0.0' ],
+486 silly audit   'is-callable': [ '1.2.7' ],
+486 silly audit   'is-core-module': [ '2.16.1' ],
+486 silly audit   'is-data-view': [ '1.0.2' ],
+486 silly audit   'is-date-object': [ '1.1.0' ],
+486 silly audit   'is-extglob': [ '2.1.1' ],
+486 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+486 silly audit   'is-generator-function': [ '1.1.2' ],
+486 silly audit   'is-glob': [ '4.0.3' ],
+486 silly audit   'is-map': [ '2.0.3' ],
+486 silly audit   'is-negative-zero': [ '2.0.3' ],
+486 silly audit   'is-number-object': [ '1.1.1' ],
+486 silly audit   'is-promise': [ '2.2.2' ],
+486 silly audit   'is-regex': [ '1.2.1' ],
+486 silly audit   'is-set': [ '2.0.3' ],
+486 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+486 silly audit   'is-string': [ '1.1.1' ],
+486 silly audit   'is-symbol': [ '1.1.1' ],
+486 silly audit   'is-typed-array': [ '1.1.15' ],
+486 silly audit   'is-weakmap': [ '2.0.2' ],
+486 silly audit   'is-weakref': [ '1.1.1' ],
+486 silly audit   'is-weakset': [ '2.0.4' ],
+486 silly audit   isarray: [ '2.0.5' ],
+486 silly audit   isexe: [ '2.0.0' ],
+486 silly audit   'iterator.prototype': [ '1.1.5' ],
+486 silly audit   'its-fine': [ '2.0.0' ],
+486 silly audit   jiti: [ '2.6.1' ],
+486 silly audit   'js-tokens': [ '4.0.0' ],
+486 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+486 silly audit   json5: [ '1.0.2' ],
+486 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+486 silly audit   'language-subtag-registry': [ '0.3.23' ],
+486 silly audit   'language-tags': [ '1.0.9' ],
+486 silly audit   levn: [ '0.4.1' ],
+486 silly audit   lie: [ '3.3.0' ],
+486 silly audit   lightningcss: [ '1.30.2' ],
+486 silly audit   'lightningcss-android-arm64': [ '1.30.2' ],
+486 silly audit   'lightningcss-darwin-arm64': [ '1.30.2' ],
+486 silly audit   'lightningcss-darwin-x64': [ '1.30.2' ],
+486 silly audit   'lightningcss-freebsd-x64': [ '1.30.2' ],
+486 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.2' ],
+486 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.2' ],
+486 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.2' ],
+486 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.2' ],
+486 silly audit   'lightningcss-linux-x64-musl': [ '1.30.2' ],
+486 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.2' ],
+486 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.2' ],
+486 silly audit   'locate-path': [ '6.0.0' ],
+486 silly audit   'lodash.merge': [ '4.6.2' ],
+486 silly audit   'loose-envify': [ '1.4.0' ],
+486 silly audit   'lucide-react': [ '0.563.0' ],
+486 silly audit   maath: [ '0.10.8' ],
+486 silly audit   'magic-string': [ '0.30.21' ],
+486 silly audit   'math-intrinsics': [ '1.1.0' ],
+486 silly audit   meshline: [ '3.3.1' ],
+486 silly audit   meshoptimizer: [ '0.22.0' ],
+486 silly audit   'mini-svg-data-uri': [ '1.4.4' ],
+486 silly audit   minimist: [ '1.2.8' ],
+486 silly audit   'motion-dom': [ '12.33.0' ],
+486 silly audit   'motion-utils': [ '12.29.2' ],
+486 silly audit   ms: [ '2.1.3' ],
+486 silly audit   nanoid: [ '3.3.11' ],
+486 silly audit   'napi-postinstall': [ '0.3.4' ],
+486 silly audit   'natural-compare': [ '1.4.0' ],
+486 silly audit   next: [ '15.1.0' ],
+486 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+486 silly audit   'node-fetch-native': [ '1.6.7' ],
+486 silly audit   nypm: [ '0.6.5' ],
+486 silly audit   'object-assign': [ '4.1.1' ],
+486 silly audit   'object-inspect': [ '1.13.4' ],
+486 silly audit   'object-keys': [ '1.1.1' ],
+486 silly audit   'object.assign': [ '4.1.7' ],
+486 silly audit   'object.entries': [ '1.1.9' ],
+486 silly audit   'object.fromentries': [ '2.0.8' ],
+486 silly audit   'object.groupby': [ '1.0.3' ],
+486 silly audit   'object.values': [ '1.2.1' ],
+486 silly audit   ohash: [ '2.0.11' ],
+486 silly audit   optionator: [ '0.9.4' ],
+486 silly audit   'own-keys': [ '1.0.1' ],
+486 silly audit   'p-limit': [ '3.1.0' ],
+486 silly audit   'p-locate': [ '5.0.0' ],
+486 silly audit   'path-exists': [ '4.0.0' ],
+486 silly audit   'path-key': [ '3.1.1' ],
+486 silly audit   'path-parse': [ '1.0.7' ],
+486 silly audit   pathe: [ '2.0.3' ],
+486 silly audit   'perfect-debounce': [ '1.0.0' ],
+486 silly audit   picocolors: [ '1.1.1' ],
+486 silly audit   picomatch: [ '4.0.3', '2.3.1' ],
+486 silly audit   'pkg-types': [ '2.3.0' ],
+486 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+486 silly audit   potpack: [ '1.0.2' ],
+486 silly audit   'prelude-ls': [ '1.2.1' ],
+486 silly audit   prisma: [ '6.19.2' ],
+486 silly audit   'promise-worker-transferable': [ '1.0.4' ],
+486 silly audit   'prop-types': [ '15.8.1' ],
+486 silly audit   'pure-rand': [ '6.1.0' ],
+486 silly audit   'queue-microtask': [ '1.2.3' ],
+486 silly audit   rc9: [ '2.1.2' ],
+486 silly audit   react: [ '19.0.0' ],
+486 silly audit   'react-dom': [ '19.0.0' ],
+486 silly audit   scheduler: [ '0.25.0', '0.27.0' ],
+486 silly audit   'react-is': [ '16.13.1' ],
+486 silly audit   'react-use-measure': [ '2.1.7' ],
+486 silly audit   readdirp: [ '4.1.2' ],
+486 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+486 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+486 silly audit   'require-from-string': [ '2.0.2' ],
+486 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+486 silly audit   reusify: [ '1.1.0' ],
+486 silly audit   'run-parallel': [ '1.2.0' ],
+486 silly audit   'safe-array-concat': [ '1.1.3' ],
+486 silly audit   'safe-push-apply': [ '1.0.0' ],
+486 silly audit   'safe-regex-test': [ '1.1.0' ],
+486 silly audit   'set-function-length': [ '1.2.2' ],
+486 silly audit   'set-function-name': [ '2.0.2' ],
+486 silly audit   'set-proto': [ '1.0.0' ],
+486 silly audit   sharp: [ '0.33.5' ],
+486 silly audit   'shebang-command': [ '2.0.0' ],
+486 silly audit   'shebang-regex': [ '3.0.0' ],
+486 silly audit   'side-channel': [ '1.1.0' ],
+486 silly audit   'side-channel-list': [ '1.0.0' ],
+486 silly audit   'side-channel-map': [ '1.0.1' ],
+486 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+486 silly audit   'simple-swizzle': [ '0.2.4' ],
+486 silly audit   'source-map-js': [ '1.2.1' ],
+486 silly audit   'stable-hash': [ '0.0.5' ],
+486 silly audit   'stats-gl': [ '2.4.2' ],
+486 silly audit   three: [ '0.170.0', '0.182.0' ],
+486 silly audit   'stats.js': [ '0.17.0' ],
+486 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+486 silly audit   streamsearch: [ '1.1.0' ],
+486 silly audit   'string.prototype.includes': [ '2.0.1' ],
+486 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+486 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+486 silly audit   'string.prototype.trim': [ '1.2.10' ],
+486 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+486 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+486 silly audit   'strip-bom': [ '3.0.0' ],
+486 silly audit   'styled-jsx': [ '5.1.6' ],
+486 silly audit   'supports-color': [ '7.2.0' ],
+486 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+486 silly audit   'suspend-react': [ '0.1.3' ],
+486 silly audit   'tailwind-merge': [ '3.4.0' ],
+486 silly audit   tailwindcss: [ '4.1.18' ],
+486 silly audit   tapable: [ '2.3.0' ],
+486 silly audit   'three-mesh-bvh': [ '0.8.3' ],
+486 silly audit   'three-stdlib': [ '2.36.1' ],
+486 silly audit   tinyexec: [ '1.0.2' ],
+486 silly audit   tinyglobby: [ '0.2.15' ],
+486 silly audit   fdir: [ '6.5.0' ],
+486 silly audit   'troika-three-text': [ '0.52.4' ],
+486 silly audit   'troika-three-utils': [ '0.52.4' ],
+486 silly audit   'troika-worker-utils': [ '0.52.0' ],
+486 silly audit   'tsconfig-paths': [ '3.15.0' ],
+486 silly audit   tslib: [ '2.8.1' ],
+486 silly audit   'tunnel-rat': [ '0.1.2' ],
+486 silly audit   zustand: [ '4.5.7', '5.0.11' ],
+486 silly audit   'type-check': [ '0.4.0' ],
+486 silly audit   'typed-array-buffer': [ '1.0.3' ],
+486 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+486 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+486 silly audit   'typed-array-length': [ '1.0.7' ],
+486 silly audit   typescript: [ '5.9.3' ],
+486 silly audit   'unbox-primitive': [ '1.1.0' ],
+486 silly audit   'undici-types': [ '6.21.0' ],
+486 silly audit   'unrs-resolver': [ '1.11.1' ],
+486 silly audit   'use-sync-external-store': [ '1.6.0' ],
+486 silly audit   'utility-types': [ '3.11.0' ],
+486 silly audit   'webgl-constants': [ '1.1.1' ],
+486 silly audit   'webgl-sdf-generator': [ '1.1.1' ],
+486 silly audit   which: [ '2.0.2' ],
+486 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+486 silly audit   'which-builtin-type': [ '1.2.1' ],
+486 silly audit   'which-collection': [ '1.0.2' ],
+486 silly audit   'which-typed-array': [ '1.1.20' ],
+486 silly audit   'word-wrap': [ '1.2.5' ],
+486 silly audit   'yocto-queue': [ '0.1.0' ],
+486 silly audit   eslint: [ '8.57.1' ],
+486 silly audit   'eslint-config-next': [ '15.1.0' ],
+486 silly audit   '@eslint/eslintrc': [ '2.1.4' ],
+486 silly audit   '@eslint/js': [ '8.57.1' ],
+486 silly audit   '@humanwhocodes/config-array': [ '0.13.0' ],
+486 silly audit   '@ungap/structured-clone': [ '1.3.0' ],
+486 silly audit   ajv: [ '6.12.6' ],
+486 silly audit   'eslint-scope': [ '7.2.2' ],
+486 silly audit   espree: [ '9.6.1' ],
+486 silly audit   'fast-deep-equal': [ '3.1.3' ],
+486 silly audit   'file-entry-cache': [ '6.0.1' ],
+486 silly audit   globals: [ '13.24.0' ],
+486 silly audit   graphemer: [ '1.4.0' ],
+486 silly audit   ignore: [ '5.3.2', '7.0.5' ],
+486 silly audit   'is-path-inside': [ '3.0.3' ],
+486 silly audit   'js-yaml': [ '4.1.1' ],
+486 silly audit   'strip-ansi': [ '6.0.1' ],
+486 silly audit   'text-table': [ '0.2.0' ],
+486 silly audit   'import-fresh': [ '3.3.1' ],
+486 silly audit   'strip-json-comments': [ '3.1.1' ],
+486 silly audit   '@humanwhocodes/object-schema': [ '2.0.3' ],
+486 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+486 silly audit   'json-schema-traverse': [ '0.4.1' ],
+486 silly audit   'uri-js': [ '4.4.1' ],
+486 silly audit   '@next/eslint-plugin-next': [ '15.1.0' ],
+486 silly audit   '@rushstack/eslint-patch': [ '1.15.0' ],
+486 silly audit   '@typescript-eslint/eslint-plugin': [ '8.54.0' ],
+486 silly audit   '@typescript-eslint/parser': [ '8.54.0' ],
+486 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+486 silly audit   'fast-glob': [ '3.3.1' ],
+486 silly audit   '@typescript-eslint/scope-manager': [ '8.54.0' ],
+486 silly audit   '@typescript-eslint/type-utils': [ '8.54.0' ],
+486 silly audit   '@typescript-eslint/utils': [ '8.54.0' ],
+486 silly audit   '@typescript-eslint/visitor-keys': [ '8.54.0' ],
+486 silly audit   'ts-api-utils': [ '2.4.0' ],
+486 silly audit   '@typescript-eslint/types': [ '8.54.0' ],
+486 silly audit   '@typescript-eslint/typescript-estree': [ '8.54.0' ],
+486 silly audit   '@typescript-eslint/project-service': [ '8.54.0' ],
+486 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.54.0' ],
+486 silly audit   esrecurse: [ '4.3.0' ],
+486 silly audit   acorn: [ '8.15.0' ],
+486 silly audit   'acorn-jsx': [ '5.3.2' ],
+486 silly audit   merge2: [ '1.4.1' ],
+486 silly audit   micromatch: [ '4.0.8' ],
+486 silly audit   'flat-cache': [ '3.2.0' ],
+486 silly audit   flatted: [ '3.3.3' ],
+486 silly audit   keyv: [ '4.5.4' ],
+486 silly audit   rimraf: [ '3.0.2' ],
+486 silly audit   'type-fest': [ '0.20.2' ],
+486 silly audit   'parent-module': [ '1.0.1' ],
+486 silly audit   'resolve-from': [ '4.0.0' ],
+486 silly audit   argparse: [ '2.0.1' ],
+486 silly audit   'json-buffer': [ '3.0.1' ],
+486 silly audit   braces: [ '3.0.3' ],
+486 silly audit   'fill-range': [ '7.1.1' ],
+486 silly audit   'to-regex-range': [ '5.0.1' ],
+486 silly audit   callsites: [ '3.1.0' ],
+486 silly audit   glob: [ '7.2.3' ],
+486 silly audit   'fs.realpath': [ '1.0.0' ],
+486 silly audit   inflight: [ '1.0.6' ],
+486 silly audit   inherits: [ '2.0.4' ],
+486 silly audit   once: [ '1.4.0' ],
+486 silly audit   'path-is-absolute': [ '1.0.1' ],
+486 silly audit   wrappy: [ '1.0.2' ],
+486 silly audit   'ansi-regex': [ '5.0.1' ],
+486 silly audit   'is-number': [ '7.0.0' ],
+486 silly audit   punycode: [ '2.3.1' ]
+486 silly audit }
+487 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+488 http cache wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 0ms (cache hit)
+489 http cache inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 0ms (cache hit)
+490 http cache inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 0ms (cache hit)
+491 http cache once@https://registry.npmjs.org/once/-/once-1.4.0.tgz 0ms (cache hit)
+492 http cache path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 0ms (cache hit)
+493 http cache glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz 0ms (cache hit)
+494 http cache type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz 0ms (cache hit)
+495 http cache fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 0ms (cache hit)
+496 http cache rimraf@https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 0ms (cache hit)
+497 http cache @rushstack/eslint-patch@https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.15.0.tgz 0ms (cache hit)
+498 http cache @humanwhocodes/object-schema@https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-2.0.3.tgz 0ms (cache hit)
+499 http cache is-path-inside@https://registry.npmjs.org/is-path-inside/-/is-path-inside-3.0.3.tgz 0ms (cache hit)
+500 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+501 http cache @eslint/eslintrc@https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-2.1.4.tgz 0ms (cache hit)
+502 http cache graphemer@https://registry.npmjs.org/graphemer/-/graphemer-1.4.0.tgz 0ms (cache hit)
+503 http cache @humanwhocodes/config-array@https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.13.0.tgz 0ms (cache hit)
+504 http cache @next/eslint-plugin-next@https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-15.1.0.tgz 0ms (cache hit)
+505 http cache globals@https://registry.npmjs.org/globals/-/globals-13.24.0.tgz 0ms (cache hit)
+506 http cache @eslint/js@https://registry.npmjs.org/@eslint/js/-/js-8.57.1.tgz 0ms (cache hit)
+507 http cache espree@https://registry.npmjs.org/espree/-/espree-9.6.1.tgz 0ms (cache hit)
+508 http cache flat-cache@https://registry.npmjs.org/flat-cache/-/flat-cache-3.2.0.tgz 0ms (cache hit)
+509 http cache file-entry-cache@https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz 0ms (cache hit)
+510 http cache eslint-plugin-react-hooks@https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.2.0.tgz 0ms (cache hit)
+511 http cache text-table@https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz 0ms (cache hit)
+512 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz 0ms (cache hit)
+513 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-8.57.1.tgz 0ms (cache hit)
+514 http cache eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.2.2.tgz 0ms (cache hit)
+515 http cache eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-15.1.0.tgz 0ms (cache hit)
+516 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz. Extracting by manifest.
+517 http cache doctrine@https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz 0ms (cache hit)
+518 silly tarball no local data for wrappy@https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz. Extracting by manifest.
+519 silly tarball no local data for inherits@https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz. Extracting by manifest.
+520 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+521 silly tarball no local data for path-is-absolute@https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz. Extracting by manifest.
+522 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-7.2.3.tgz. Extracting by manifest.
+523 silly tarball no local data for type-fest@https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz. Extracting by manifest.
+524 silly tarball no local data for once@https://registry.npmjs.org/once/-/once-1.4.0.tgz. Extracting by manifest.
+525 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+526 http cache eslint-visitor-keys@https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-4.2.1.tgz 0ms (cache hit)
+527 silly tarball no local data for rimraf@https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz. Extracting by manifest.
+528 silly tarball no local data for @rushstack/eslint-patch@https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.15.0.tgz. Extracting by manifest.
+529 silly tarball no local data for @humanwhocodes/object-schema@https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-2.0.3.tgz. Extracting by manifest.
+530 silly tarball no local data for is-path-inside@https://registry.npmjs.org/is-path-inside/-/is-path-inside-3.0.3.tgz. Extracting by manifest.
+531 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz. Extracting by manifest.
+532 http cache @ungap/structured-clone@https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.3.0.tgz 0ms (cache hit)
+533 silly tarball no local data for @eslint/eslintrc@https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-2.1.4.tgz. Extracting by manifest.
+534 silly tarball no local data for graphemer@https://registry.npmjs.org/graphemer/-/graphemer-1.4.0.tgz. Extracting by manifest.
+535 silly tarball no local data for @next/eslint-plugin-next@https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-15.1.0.tgz. Extracting by manifest.
+536 silly tarball no local data for @eslint/js@https://registry.npmjs.org/@eslint/js/-/js-8.57.1.tgz. Extracting by manifest.
+537 silly tarball no local data for @humanwhocodes/config-array@https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.13.0.tgz. Extracting by manifest.
+538 silly tarball no local data for globals@https://registry.npmjs.org/globals/-/globals-13.24.0.tgz. Extracting by manifest.
+539 silly tarball no local data for espree@https://registry.npmjs.org/espree/-/espree-9.6.1.tgz. Extracting by manifest.
+540 silly tarball no local data for file-entry-cache@https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz. Extracting by manifest.
+541 silly tarball no local data for flat-cache@https://registry.npmjs.org/flat-cache/-/flat-cache-3.2.0.tgz. Extracting by manifest.
+542 silly tarball no local data for eslint-plugin-react-hooks@https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.2.0.tgz. Extracting by manifest.
+543 silly tarball no local data for text-table@https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz. Extracting by manifest.
+544 silly tarball no local data for eslint-scope@https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.2.2.tgz. Extracting by manifest.
+545 silly tarball no local data for eslint@https://registry.npmjs.org/eslint/-/eslint-8.57.1.tgz. Extracting by manifest.
+546 silly tarball no local data for eslint-config-next@https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-15.1.0.tgz. Extracting by manifest.
+547 silly tarball no local data for doctrine@https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz. Extracting by manifest.
+548 silly tarball no local data for @ungap/structured-clone@https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.3.0.tgz. Extracting by manifest.
+549 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 44ms (cache miss)
+550 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.2.3.tgz 46ms (cache miss)
+551 warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+552 http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz 47ms (cache miss)
+553 http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 49ms (cache miss)
+554 http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 50ms (cache miss)
+555 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 52ms (cache miss)
+556 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+557 http fetch GET 200 https://registry.npmjs.org/globals/-/globals-13.24.0.tgz 91ms (cache miss)
+558 http fetch GET 200 https://registry.npmjs.org/graphemer/-/graphemer-1.4.0.tgz 93ms (cache miss)
+559 http fetch GET 200 https://registry.npmjs.org/@eslint/js/-/js-8.57.1.tgz 99ms (cache miss)
+560 http fetch GET 200 https://registry.npmjs.org/espree/-/espree-9.6.1.tgz 118ms (cache miss)
+561 http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 123ms (cache miss)
+562 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 124ms (cache miss)
+563 http fetch GET 200 https://registry.npmjs.org/is-path-inside/-/is-path-inside-3.0.3.tgz 138ms (cache miss)
+564 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 138ms (cache miss)
+565 http fetch GET 200 https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz 137ms (cache miss)
+566 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 139ms (cache miss)
+567 warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+568 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-2.0.3.tgz 146ms (cache miss)
+569 warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+570 http fetch GET 200 https://registry.npmjs.org/flat-cache/-/flat-cache-3.2.0.tgz 149ms (cache miss)
+571 http fetch GET 200 https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz 158ms (cache miss)
+572 http fetch GET 200 https://registry.npmjs.org/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.2.0.tgz 156ms (cache miss)
+573 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 179ms
+574 silly audit report {
+574 silly audit report   next: [
+574 silly audit report     {
+574 silly audit report       id: 1101437,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+574 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+574 silly audit report       severity: 'moderate',
+574 silly audit report       vulnerable_versions: '>=15.0.0 <15.1.2',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1105462,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-3h52-269p-cp9r',
+574 silly audit report       title: 'Information exposure in Next.js dev server due to lack of origin verification',
+574 silly audit report       severity: 'low',
+574 silly audit report       vulnerable_versions: '>=15.0.0 <15.2.2',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1105948,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-67rr-84xm-4c7r',
+574 silly audit report       title: 'Next.JS vulnerability can lead to DoS via cache poisoning ',
+574 silly audit report       severity: 'high',
+574 silly audit report       vulnerable_versions: '>=15.0.4-canary.51 <15.1.8',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1111367,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-9qr9-h5gf-34mp',
+574 silly audit report       title: 'Next.js is vulnerable to RCE in React flight protocol',
+574 silly audit report       severity: 'critical',
+574 silly audit report       vulnerable_versions: '>=15.1.0-canary.0 <15.1.9',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1107228,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-g5qg-72qw-gw5v',
+574 silly audit report       title: 'Next.js Affected by Cache Key Confusion for Image Optimization API Routes',
+574 silly audit report       severity: 'moderate',
+574 silly audit report       vulnerable_versions: '>=15.0.0 <=15.4.4',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1107514,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-xv57-4mr9-wg8v',
+574 silly audit report       title: 'Next.js Content Injection Vulnerability for Image Optimization',
+574 silly audit report       severity: 'moderate',
+574 silly audit report       vulnerable_versions: '>=15.0.0 <=15.4.4',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1107515,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-4342-x723-ch2f',
+574 silly audit report       title: 'Next.js Improper Middleware Redirect Handling Leads to SSRF',
+574 silly audit report       severity: 'moderate',
+574 silly audit report       vulnerable_versions: '>=15.0.0-canary.0 <15.4.7',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1108410,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-qpjv-v59x-3qc4',
+574 silly audit report       title: 'Next.js Race Condition to Cache Poisoning',
+574 silly audit report       severity: 'low',
+574 silly audit report       vulnerable_versions: '>=15.0.0 <15.1.6',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1108952,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-f82v-jwr5-mffw',
+574 silly audit report       title: 'Authorization Bypass in Next.js Middleware',
+574 silly audit report       severity: 'critical',
+574 silly audit report       vulnerable_versions: '>=15.0.0 <15.2.3',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     },
+574 silly audit report     {
+574 silly audit report       id: 1112593,
+574 silly audit report       url: 'https://github.com/advisories/GHSA-9g9p-9gw9-jx7f',
+574 silly audit report       title: 'Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration',
+574 silly audit report       severity: 'moderate',
+574 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.10',
+574 silly audit report       cwe: [Array],
+574 silly audit report       cvss: [Object]
+574 silly audit report     }
+574 silly audit report   ]
+574 silly audit report }
+575 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+576 http fetch GET 200 https://registry.npmjs.org/text-table/-/text-table-0.2.0.tgz 189ms (cache miss)
+577 http fetch GET 200 https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-15.1.0.tgz 189ms (cache miss)
+578 http fetch GET 200 https://registry.npmjs.org/doctrine/-/doctrine-3.0.0.tgz 190ms (cache miss)
+579 http fetch GET 200 https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.3.0.tgz 186ms (cache miss)
+580 http fetch GET 200 https://registry.npmjs.org/eslint-scope/-/eslint-scope-7.2.2.tgz 193ms (cache miss)
+581 http fetch GET 200 https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.13.0.tgz 238ms (cache miss)
+582 warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+583 http fetch GET 200 https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-15.1.0.tgz 239ms (cache miss)
+584 http fetch GET 200 https://registry.npmjs.org/next 97ms (cache revalidated)
+585 silly packumentCache corgi:https://registry.npmjs.org/next set size:23748627 disposed:false
+586 http fetch GET 200 https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-2.1.4.tgz 659ms (cache miss)
+587 http fetch GET 200 https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.15.0.tgz 673ms (cache miss)
+588 http fetch GET 200 https://registry.npmjs.org/eslint/-/eslint-8.57.1.tgz 694ms (cache miss)
+589 warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+590 silly ADD node_modules/ansi-regex
+591 silly ADD node_modules/wrappy
+592 silly ADD node_modules/path-is-absolute
+593 silly ADD node_modules/once
+594 silly ADD node_modules/inherits
+595 silly ADD node_modules/inflight
+596 silly ADD node_modules/fs.realpath
+597 silly ADD node_modules/glob
+598 silly ADD node_modules/type-fest
+599 silly ADD node_modules/rimraf
+600 silly ADD node_modules/@rushstack/eslint-patch
+601 silly ADD node_modules/@humanwhocodes/object-schema
+602 silly ADD node_modules/text-table
+603 silly ADD node_modules/strip-ansi
+604 silly ADD node_modules/is-path-inside
+605 silly ADD node_modules/graphemer
+606 silly ADD node_modules/@ungap/structured-clone
+607 silly ADD node_modules/@humanwhocodes/config-array
+608 silly ADD node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys
+609 silly REMOVE node_modules/@types/estree
+610 silly REMOVE node_modules/@types/json-schema
+611 silly CHANGE node_modules/@next/eslint-plugin-next
+612 silly REMOVE node_modules/@humanwhocodes/retry
+613 silly REMOVE node_modules/@humanfs/node
+614 silly REMOVE node_modules/@humanfs/core
+615 silly REMOVE node_modules/@eslint/plugin-kit
+616 silly CHANGE node_modules/@eslint/eslintrc
+617 silly REMOVE node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys
+618 silly REMOVE node_modules/@eslint/object-schema
+619 silly CHANGE node_modules/@eslint/js
+620 silly REMOVE node_modules/@eslint/core
+621 silly REMOVE node_modules/@eslint/config-helpers
+622 silly REMOVE node_modules/@eslint/config-array
+623 silly REMOVE node_modules/@babel/types
+624 silly REMOVE node_modules/@babel/traverse
+625 silly REMOVE node_modules/@babel/template
+626 silly REMOVE node_modules/@babel/helpers
+627 silly REMOVE node_modules/@babel/parser
+628 silly REMOVE node_modules/@babel/helper-string-parser
+629 silly REMOVE node_modules/@babel/generator
+630 silly REMOVE node_modules/@babel/helper-validator-option
+631 silly REMOVE node_modules/@babel/helper-module-transforms
+632 silly REMOVE node_modules/@babel/helper-validator-identifier
+633 silly REMOVE node_modules/@babel/compat-data
+634 silly REMOVE node_modules/@babel/helper-module-imports
+635 silly REMOVE node_modules/@babel/helper-globals
+636 silly REMOVE node_modules/@babel/helper-compilation-targets
+637 silly REMOVE node_modules/@babel/core
+638 silly REMOVE node_modules/@babel/code-frame
+639 silly REMOVE node_modules/zod-validation-error
+640 silly REMOVE node_modules/zod
+641 silly REMOVE node_modules/yallist
+642 silly REMOVE node_modules/update-browserslist-db
+643 silly REMOVE node_modules/typescript-eslint
+644 silly REMOVE node_modules/node-releases
+645 silly REMOVE node_modules/lru-cache
+646 silly REMOVE node_modules/json5
+647 silly REMOVE node_modules/jsesc
+648 silly REMOVE node_modules/hermes-parser
+649 silly REMOVE node_modules/hermes-estree
+650 silly CHANGE node_modules/globals
+651 silly REMOVE node_modules/gensync
+652 silly CHANGE node_modules/flat-cache
+653 silly CHANGE node_modules/file-entry-cache
+654 silly CHANGE node_modules/espree
+655 silly CHANGE node_modules/eslint-scope
+656 silly CHANGE node_modules/eslint-visitor-keys
+657 silly CHANGE node_modules/eslint-plugin-react-hooks
+658 silly CHANGE node_modules/eslint
+659 silly ADD node_modules/eslint/node_modules/doctrine
+660 silly CHANGE node_modules/eslint-config-next
+661 silly REMOVE node_modules/eslint-config-next/node_modules/globals
+662 silly REMOVE node_modules/escalade
+663 silly REMOVE node_modules/electron-to-chromium
+664 silly REMOVE node_modules/convert-source-map
+665 silly REMOVE node_modules/browserslist
+666 silly REMOVE node_modules/baseline-browser-mapping
+667 verbose cwd /Users/andres/Documents/Documentos - MacBook Air de Andres/Proyecto sistema contable /Sistema-ERP-Pitalito
+668 verbose os Darwin 25.2.0
+669 verbose node v25.4.0
+670 verbose npm  v11.7.0
+671 verbose exit 0
+672 info ok

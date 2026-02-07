@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+    /* MasControl Ultra Palette */
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+
+    --color-primary: var(--primary);
+    --color-primary-foreground: var(--primary-foreground);
+
+    --color-card: var(--card);
+    --color-card-foreground: var(--card-foreground);
+
+    --color-popover: var(--popover);
+    --color-popover-foreground: var(--popover-foreground);
+
+    --color-secondary: var(--secondary);
+    --color-secondary-foreground: var(--secondary-foreground);
+
+    --color-muted: var(--muted);
+    --color-muted-foreground: var(--muted-foreground);
+
+    --color-accent: var(--accent);
+    --color-accent-foreground: var(--accent-foreground);
+
+    --color-destructive: var(--destructive);
+    --color-destructive-foreground: var(--destructive-foreground);
+
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+
+    --radius: 0.5rem;
+}
+
+:root {
+    /* Teal Brand Color #1b9f8b */
+    --primary: #1b9f8b;
+    --primary-foreground: #ffffff;
+
+    --background: #fdfdfd;
+    /* Slight off-white like the ref */
+    --foreground: #333333;
+
+    --card: #ffffff;
+    --card-foreground: #333333;
+
+    --popover: #ffffff;
+    --popover-foreground: #333333;
+
+    --secondary: #eef2f6;
+    /* Light gray for backgrounds/secondary actions */
+    --secondary-foreground: #1b9f8b;
+
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+
+    --accent: #e0f2f1;
+    /* Light teal tint */
+    --accent-foreground: #1b9f8b;
+
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+    --ring: #1b9f8b;
+
+    --radius: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Keeping light mode preference for this specific business app look, 
+       but providing dark maps just in case user forces it */
+        --background: #0f172a;
+        --foreground: #f8fafc;
+
+        --card: #1e293b;
+        --card-foreground: #f8fafc;
+
+        --popover: #1e293b;
+        --popover-foreground: #f8fafc;
+
+        --primary: #1b9f8b;
+        --primary-foreground: #ffffff;
+
+        --secondary: #334155;
+        --secondary-foreground: #f8fafc;
+
+        --muted: #334155;
+        --muted-foreground: #94a3b8;
+
+        --accent: #115e59;
+        --accent-foreground: #f8fafc;
+
+        --destructive: #7f1d1d;
+        --destructive-foreground: #f8fafc;
+
+        --border: #334155;
+        --input: #334155;
+        --ring: #1b9f8b;
+    }
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
